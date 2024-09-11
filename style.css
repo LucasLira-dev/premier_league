@@ -11,4 +11,5 @@ article.imagem  {
 
 article.imagem > p {
     background-color: white;
+    color: black;
 }
