@@ -10,6 +10,14 @@ main {
     
 }
 
+main p {
+    margin: 10px 0px;
+    text-align: justify;
+    text-indent: 20px;
+    font-size: 1.2em;
+    line-height: 30px;
+}
+
 article.imagem#img01 > p {
     background-image: url('imagens/oldtrafford.png');
     background-position: right center;
@@ -17,6 +25,7 @@ article.imagem#img01 > p {
     background-attachment: fixed;
     height: 60vh;
     width: 100%;
+
     
 }
 
@@ -27,8 +36,18 @@ article.imagem#img02 {
     background-attachment: fixed;
     height: 60vh;
     width: 100%;
+    
 }
 
+article.imagem#img03 {
+    background-image: url('imagens/chelsea.png');
+    background-position: right center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+}
 article.imagem > p {
     color: white;
     display: inline-block;
