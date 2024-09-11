@@ -1,15 +1,32 @@
 @charset "UTF-8";
 
-article.imagem > p {
+header {
+    text-align: center;
+}
+main {
+    min-width: none;
+    max-width: 800px;
+    margin: auto;
+    
+}
+
+article.imagem#img01 > p {
     background-image: url('imagens/oldtrafford.png');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
-    height: 40vh;
-    width: 100vw;
+    height: 60vh;
+    width: 100%;
     
+}
 
-
+article.imagem#img02 {
+    background-image: url('imagens/mancity.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
 }
 
 article.imagem > p {
