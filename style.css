@@ -1,12 +1,36 @@
 @charset "UTF-8";
 
+body {
+    background-color: #FF0054;
+}
+
 header {
+    background-image: linear-gradient(to bottom, #FF005A, #FF2883 );
+    font-family: "Passion One", system-ui;
+    font-weight: 900;
+    font-style: normal;
+    font-variant: small-caps;
     text-align: center;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #FF0054, transparent );
+    color: white;
+    font-family: "Passion One", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    font-variant: small-caps;
 }
 main {
     min-width: none;
     max-width: 800px;
     margin: auto;
+    background-color: white;
+
     
 }
 
@@ -18,7 +42,7 @@ main p {
     line-height: 30px;
 }
 
-article.imagem#img01 > p {
+article.imagem#img01   {
     background-image: url('imagens/oldtrafford.png');
     background-position: right center;
     background-size: cover;
@@ -57,7 +81,7 @@ article.imagem#img04 {
     background-attachment: fixed;
     height: 60vh;
     width: 100%;
-    padding: 20px;
+    padding-bottom: 20px;
     margin-top: 20px;
 }
 
@@ -80,9 +104,44 @@ article.imagem#img06 {
     width: 100%;
     margin-top: 20px;
 }
+
+article.imagem#img07 {
+    background-image: url('imagens/leicester.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    padding-bottom: 20px;
+    margin-top: 20px; 
+}
+
 article.imagem > p {
     color: white;
     display: inline-block;
 }
+
+footer { 
+    background-color: white;
+    color: black;
+    max-width: 800px;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 10px;
+}
+
+footer a {
+    font-weight: bolder;
+    font-size: 1em;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FF0054;
+}
+
 
 
