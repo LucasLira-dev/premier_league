@@ -47,7 +47,30 @@ article.imagem#img03 {
     height: 60vh;
     width: 100%;
     margin-top: 20px;
+
 }
+
+article.imagem#img04 {
+    background-image: url('imagens/arsenal.png');
+    background-position: center top;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+article.imagem#img05 {
+    background-image: url('imagens/liverpool.png');
+    background-position: center left;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+}
+
 article.imagem > p {
     color: white;
     display: inline-block;
