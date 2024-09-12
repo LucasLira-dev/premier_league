@@ -71,6 +71,15 @@ article.imagem#img05 {
     margin-top: 20px;
 }
 
+article.imagem#img06 {
+    background-image: url('imagens/blackburn.png');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 60vh;
+    width: 100%;
+    margin-top: 20px;
+}
 article.imagem > p {
     color: white;
     display: inline-block;
